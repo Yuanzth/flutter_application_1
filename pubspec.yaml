@@ -1,0 +1,196 @@
+name: flutter_application_1
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+   sdk: flutter
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.3.0
+  lottie: ^2.7.0
+  animations: ^2.0.0
+  flutter_staggered_grid_view: ^0.7.0
+ 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - assets/birthday_image.jpg
+    - assets/birthday_image1.jpg
+    - assets/photo1.jpg
+    - assets/photo3.jpg
+    - assets/music1.wav
+    - assets/music2.wav
+    - assets/oght.wav
+    - assets/loading_square.json
+    - assets/dump/dump1.jpg
+    - assets/dump/dump2.jpg
+    - assets/dump/dump3.jpg
+    - assets/dump/dump4.jpg
+    - assets/dump/dump5.jpg
+    - assets/dump/dump6.jpg
+    - assets/dump/dump7.jpg
+    - assets/dump/dump8.jpg
+    - assets/dump/dump9.jpg
+    - assets/dump/dump10.jpg
+    - assets/dump/dump11.jpg
+    - assets/dump/dump12.jpg
+    - assets/dump/dump13.jpg
+    - assets/dump/dump14.jpg
+    - assets/dump/dump15.jpg
+    - assets/dump/dump16.jpg
+    - assets/dump/dump17.jpg
+    - assets/dump/dump18.jpg
+    - assets/dump/dump19.jpg
+    - assets/dump/dump20.jpg
+    - assets/dump/dump21.jpg
+    - assets/dump/dump22.jpg
+    - assets/dump/dump23.jpg
+    - assets/dump/dump24.jpg      
+    - assets/dump/dump25.jpg
+    - assets/dump/dump26.jpg
+    - assets/dump/dump27.jpg
+    - assets/dump/dump28.jpg
+    - assets/dump/dump29.jpg
+    - assets/dump/dump30.jpg
+    - assets/miko/miko1.jpg
+    - assets/miko/miko2.jpg
+    - assets/miko/miko3.jpg
+    - assets/miko/miko4.jpg
+    - assets/miko/miko5.jpg
+    - assets/miko/miko6.jpg
+    - assets/miko/miko7.jpg
+    - assets/miko/miko8.jpg
+    - assets/miko/miko9.jpg
+    - assets/miko/miko10.jpg
+    - assets/miko/miko11.jpg
+    - assets/miko/miko12.jpg
+    - assets/miko/miko13.jpg
+    - assets/miko/miko14.jpg
+    - assets/miko/miko15.jpg
+    - assets/miko/miko16.jpg
+    - assets/miko/miko17.jpg
+    - assets/miko/miko18.jpg
+    - assets/miko/miko19.jpg
+    - assets/miko/miko20.jpg
+    - assets/miko/miko21.jpg
+    - assets/miko/miko22.jpg
+    - assets/miko/miko23.jpg
+    - assets/miko/miko24.jpg
+    - assets/miko/miko25.jpg
+    - assets/miko/miko26.jpg
+    - assets/miko/miko27.jpg
+    - assets/cutie/aca1.jpg
+    - assets/cutie/aca2.jpg
+    - assets/cutie/aca3.jpg
+    - assets/cutie/aca4.jpg
+    - assets/cutie/aca5.jpg
+    - assets/cutie/aca6.jpg
+    - assets/cutie/aca7.jpg
+    - assets/cutie/aca8.jpg
+    - assets/cutie/aca9.jpg
+    - assets/cutie/aca10.jpg
+    - assets/cutie/aca11.jpg
+    - assets/cutie/aca12.jpg
+    - assets/cutie/aca13.jpg
+    - assets/cutie/aca14.jpg
+    - assets/cutie/aca15.jpg
+    - assets/cutie/aca16.jpg
+    - assets/cutie/aca17.jpg
+    - assets/cutie/aca18.jpg
+    - assets/cutie/aca19.jpg
+    - assets/cutie/aca20.jpg
+    - assets/lucukk/aca1.jpg
+    - assets/lucukk/aca2.jpg
+    - assets/lucukk/aca3.jpg
+    - assets/lucukk/aca4.jpg
+    - assets/lucukk/aca5.jpg
+    - assets/lucukk/aca6.jpg
+    - assets/lucukk/aca7.jpg
+    - assets/lucukk/aca8.jpg
+    - assets/lucukk/aca9.jpg
+    - assets/lucukk/aca10.jpg
+    - assets/lucukk/aca11.jpg
+    - assets/lucukk/aca12.jpg
+    - assets/lucukk/aca13.jpg
+
+    
+    
+    
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+
+    - family: gloriahallelujah
+      fonts:
+        - asset: fonts/gloriahallelujah.ttf
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
